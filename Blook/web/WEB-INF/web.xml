@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>Test</servlet-name>
+        <servlet-class>controller.account.Test</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Test_1</servlet-name>
+        <servlet-class>controller.account.admin.Test_1</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Test_2</servlet-name>
+        <servlet-class>controller.post.Test_2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Test</servlet-name>
+        <url-pattern>/Test</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Test_1</servlet-name>
+        <url-pattern>/Test_1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Test_2</servlet-name>
+        <url-pattern>/Test_2</url-pattern>
+    </servlet-mapping>
+</web-app>
