@@ -1,0 +1,2 @@
+ALTER TABLE Post
+ADD CONSTRAINT FK_Post_Account FOREIGN KEY (userName) REFERENCES Account(userName);
